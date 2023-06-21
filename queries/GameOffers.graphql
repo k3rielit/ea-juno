@@ -1,0 +1,170 @@
+query GameOffers {
+	__typename # Query
+	games(
+		slugs: [
+			"need-for-speed"
+			"need-for-speed-payback"
+			"need-for-speed-heat"
+			"need-for-speed-unbound"
+		]
+	) {
+		__typename # GamesOffsetPage
+		items {
+			__typename # Game
+			slug
+			title
+			id
+            # ... see the properties of the type Game below
+		}
+	}
+	game(slug: "need-for-speed-unbound") {
+		__typename # Game
+		slug
+		id
+		description
+		title
+		gameType
+		baseGameSlug
+		genres {
+			__typename # Genre
+			id
+			name
+			slug
+		}
+		gameBans
+		ratings {
+			__typename # ?, probably Rating
+			id
+			name
+			slug
+		}
+		addons {
+			__typename # GameAddonsOffsetPage
+			items {
+				... on GameMicrocontent { # inline fragment: GameV2 GameBundlePack GameCurrency GameExpansion GameMicrocontent
+					__typename # GameMicrocontent
+					slug
+					baseGameSlug
+					gameType
+					title
+					id
+					products {
+						__typename # GameMicrocontentProductOffsetPage
+						items {
+							__typename # GameMicrocontentProduct
+							id
+							name
+							slug
+							gameSlug
+							offer {
+								__typename # UserGameProductOffer
+								offerId
+								offerName
+								purchaseOptions {
+									__typename # GameProductPurchaseOption
+									currency
+									discountPercentage
+									displayOriginalTotal
+									displayTotalWithDiscount
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		products {
+			__typename # GameProductsOffsetPage
+			items {
+				__typename # GameProduct
+				id
+				name
+				slug
+				gameSlug
+				offer {
+					__typename # UserGameProductOffer
+					offerId
+					offerName
+					purchaseOptions {
+						__typename # GameProductPurchaseOption
+						currency
+						discountPercentage
+						displayOriginalTotal
+						displayTotalWithDiscount
+					}
+					lowestPricePurchaseOption {
+						__typename # GameProductPurchaseOption
+						currency
+						discountPercentage
+						displayOriginalTotal
+						displayTotalWithDiscount
+					}
+				}
+				anonymousOffer {
+					__typename # GameProductOffer
+					offerId
+					offerName
+					purchaseOptions {
+						__typename # GameProductPurchaseOption
+						currency
+						discountPercentage
+						displayOriginalTotal
+						displayTotalWithDiscount
+					}
+					lowestPricePurchaseOption {
+						__typename # GameProductPurchaseOption
+						currency
+						discountPercentage
+						displayOriginalTotal
+						displayTotalWithDiscount
+					}
+				}
+			}
+		}
+		lowestPriceGameProduct {
+			__typename # GameProduct
+			id
+			name
+			slug
+			gameSlug
+			offer {
+				__typename # UserGameProductOffer
+				offerId
+				offerName
+				purchaseOptions {
+					__typename # GameProductPurchaseOption
+					currency
+					discountPercentage
+					displayOriginalTotal
+					displayTotalWithDiscount
+				}
+				lowestPricePurchaseOption {
+					__typename # GameProductPurchaseOption
+					currency
+					discountPercentage
+					displayOriginalTotal
+					displayTotalWithDiscount
+				}
+			}
+			anonymousOffer {
+				__typename # UserGameProductOffer
+				offerId
+				offerName
+				purchaseOptions {
+					__typename # GameProductPurchaseOption
+					currency
+					discountPercentage
+					displayOriginalTotal
+					displayTotalWithDiscount
+				}
+				lowestPricePurchaseOption {
+					__typename # GameProductPurchaseOption
+					currency
+					discountPercentage
+					displayOriginalTotal
+					displayTotalWithDiscount
+				}
+			}
+		}
+	}
+}
