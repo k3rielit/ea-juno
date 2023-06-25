@@ -1,0 +1,144 @@
+{
+	"data": {
+		"__typename": "Query",
+		"gameSubscriptions": {
+			"__typename": "GameSubscriptionOffsetPage",
+			"items": [
+				{
+					"__typename": "GameSubscription",
+					"id": "mXdfT9gcniKpHEDG42972",
+					"slug": "origin-access-premier",
+					"title": "Origin Access Premier",
+					"description": "Origin Access Premier",
+					"offers": [
+						{
+							"__typename": "SubscriptionOffer",
+							"offerId": "Origin.OFR.50.0002554",
+							"offerName": "EA Play Pro (Monthly) Membership",
+							"duration": "MONTHLY",
+							"purchaseOptions": [
+								{
+									"__typename": "SubscriptionPurchaseOption",
+									"currency": "EUR",
+									"discountPercentage": 0,
+									"displayMonthlyEquivalentWithDiscount": "€14.99",
+									"displayOriginalTotal": "€14.99",
+									"displayTotalWithDiscount": "€14.99"
+								}
+							],
+							"lowestPricePurchaseOption": {
+								"__typename": "SubscriptionPurchaseOption",
+								"currency": "EUR",
+								"discountPercentage": 0,
+								"displayMonthlyEquivalentWithDiscount": "€14.99",
+								"displayOriginalTotal": "€14.99",
+								"displayTotalWithDiscount": "€14.99"
+							},
+							"percentDiscountOverDurations": {
+								"__typename": "PercentDiscountOverDurations",
+								"oneMonth": 0,
+								"threeMonths": 0
+							}
+						},
+						{
+							"__typename": "SubscriptionOffer",
+							"offerId": "Origin.OFR.50.0002555",
+							"offerName": "EA Play Pro (Annual) Membership",
+							"duration": "ANNUAL",
+							"purchaseOptions": [
+								{
+									"__typename": "SubscriptionPurchaseOption",
+									"currency": "EUR",
+									"discountPercentage": 0,
+									"displayMonthlyEquivalentWithDiscount": "€8.33",
+									"displayOriginalTotal": "€99.99",
+									"displayTotalWithDiscount": "€99.99"
+								}
+							],
+							"lowestPricePurchaseOption": {
+								"__typename": "SubscriptionPurchaseOption",
+								"currency": "EUR",
+								"discountPercentage": 0,
+								"displayMonthlyEquivalentWithDiscount": "€8.33",
+								"displayOriginalTotal": "€99.99",
+								"displayTotalWithDiscount": "€99.99"
+							},
+							"percentDiscountOverDurations": {
+								"__typename": "PercentDiscountOverDurations",
+								"oneMonth": 44.41,
+								"threeMonths": 0
+							}
+						}
+					]
+				},
+				{
+					"__typename": "GameSubscription",
+					"id": "5UjMYe0bnd5uVcojayItrA",
+					"slug": "origin-access-basic",
+					"title": "Origin Access Basic",
+					"description": "Origin Access Basic",
+					"offers": [
+						{
+							"__typename": "SubscriptionOffer",
+							"offerId": "Origin.OFR.50.0000751",
+							"offerName": "EA Play (Annual) Membership",
+							"duration": "ANNUAL",
+							"purchaseOptions": [
+								{
+									"__typename": "SubscriptionPurchaseOption",
+									"currency": "EUR",
+									"discountPercentage": 0,
+									"displayMonthlyEquivalentWithDiscount": "€2.08",
+									"displayOriginalTotal": "€24.99",
+									"displayTotalWithDiscount": "€24.99"
+								}
+							],
+							"lowestPricePurchaseOption": {
+								"__typename": "SubscriptionPurchaseOption",
+								"currency": "EUR",
+								"discountPercentage": 0,
+								"displayMonthlyEquivalentWithDiscount": "€2.08",
+								"displayOriginalTotal": "€24.99",
+								"displayTotalWithDiscount": "€24.99"
+							},
+							"percentDiscountOverDurations": {
+								"__typename": "PercentDiscountOverDurations",
+								"oneMonth": 47.81,
+								"threeMonths": 0
+							}
+						},
+						{
+							"__typename": "SubscriptionOffer",
+							"offerId": "Origin.OFR.50.0001171",
+							"offerName": "EA Play (Monthly) Membership",
+							"duration": "MONTHLY",
+							"purchaseOptions": [
+								{
+									"__typename": "SubscriptionPurchaseOption",
+									"currency": "EUR",
+									"discountPercentage": 0,
+									"displayMonthlyEquivalentWithDiscount": "€3.99",
+									"displayOriginalTotal": "€3.99",
+									"displayTotalWithDiscount": "€3.99"
+								}
+							],
+							"lowestPricePurchaseOption": {
+								"__typename": "SubscriptionPurchaseOption",
+								"currency": "EUR",
+								"discountPercentage": 0,
+								"displayMonthlyEquivalentWithDiscount": "€3.99",
+								"displayOriginalTotal": "€3.99",
+								"displayTotalWithDiscount": "€3.99"
+							},
+							"percentDiscountOverDurations": {
+								"__typename": "PercentDiscountOverDurations",
+								"oneMonth": 0,
+								"threeMonths": 0
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

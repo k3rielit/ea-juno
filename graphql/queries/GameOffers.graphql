@@ -14,7 +14,6 @@ query GameOffers {
 			slug
 			title
 			id
-            # ... see the properties of the type Game below
 		}
 	}
 	game(slug: "need-for-speed-unbound") {
@@ -33,7 +32,7 @@ query GameOffers {
 		}
 		gameBans
 		ratings {
-			__typename # ?, probably Rating
+			__typename # ? probably Rating
 			id
 			name
 			slug

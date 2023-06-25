@@ -1,0 +1,40 @@
+query PlanSelection {
+	__typename # Query
+	gameSubscriptions {
+		__typename # GameSubscriptionOffsetPage
+		items {
+			__typename # GameSubscription
+			id
+			slug
+			title
+			description
+			offers {
+				__typename # SubscriptionOffer
+				offerId
+				offerName
+				duration
+				purchaseOptions {
+					__typename # SubscriptionPurchaseOption
+					currency
+					discountPercentage
+					displayMonthlyEquivalentWithDiscount
+					displayOriginalTotal
+					displayTotalWithDiscount
+				}
+				lowestPricePurchaseOption {
+					__typename # SubscriptionPurchaseOption
+					currency
+					discountPercentage
+					displayMonthlyEquivalentWithDiscount
+					displayOriginalTotal
+					displayTotalWithDiscount
+				}
+				percentDiscountOverDurations {
+					__typename # PercentDiscountOverDurations
+					oneMonth
+					threeMonths
+				}
+			}
+		}
+	}
+}

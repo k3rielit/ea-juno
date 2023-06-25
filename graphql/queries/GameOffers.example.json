@@ -53,31 +53,31 @@
 				"items": [
 					{
 						"__typename": "GameMicrocontent",
-						"slug": "need-for-speed-unbound-epic-customs-pack-1",
+						"slug": "need-for-speed-unbound-ford-mustang-gt-legendary-custom-pack",
 						"baseGameSlug": "need-for-speed-unbound",
 						"gameType": "MICRO_CONTENT",
-						"title": "Need for Speed™ Unbound - Vol.3 Customs Pack",
-						"id": "en-us_need-for-speed-unbound-epic-customs-pack-1_VideoGame_ie_pc",
+						"title": "Need for Speed™ Unbound - Ford Mustang GT Legendary Custom Pack",
+						"id": "en-us_need-for-speed-unbound-ford-mustang-gt-legendary-custom-pack_VideoGame_ie_pc",
 						"products": {
 							"__typename": "GameMicrocontentProductOffsetPage",
 							"items": [
 								{
 									"__typename": "GameMicrocontentProduct",
-									"id": "en-us_need-for-speed-unbound-epic-customs-pack-1_VideoGameProduct_hu_pc",
-									"name": "Need for Speed™ Unbound - Vol.3 Customs Pack",
-									"slug": "need-for-speed-unbound-epic-customs-pack-1",
-									"gameSlug": "need-for-speed-unbound-epic-customs-pack-1",
+									"id": "en-us_need-for-speed-unbound-street-pass-1_VideoGameProduct_hu_pc",
+									"name": "Need for Speed™ Unbound - Ford Mustang GT Legendary Custom Pack",
+									"slug": "need-for-speed-unbound-street-pass-1",
+									"gameSlug": "need-for-speed-unbound-ford-mustang-gt-legendary-custom-pack",
 									"offer": {
 										"__typename": "UserGameProductOffer",
-										"offerId": "Origin.OFR.50.0005216",
-										"offerName": "Need for Speed™ Unbound - Vol.3 Customs Pack",
+										"offerId": "Origin.OFR.50.0005218",
+										"offerName": "Need for Speed™ Unbound - Ford Mustang GT Legendary Custom Pack",
 										"purchaseOptions": [
 											{
 												"__typename": "GameProductPurchaseOption",
 												"currency": "EUR",
 												"discountPercentage": 0,
-												"displayOriginalTotal": "€5.99",
-												"displayTotalWithDiscount": "€5.99"
+												"displayOriginalTotal": "€9.99",
+												"displayTotalWithDiscount": "€9.99"
 											}
 										]
 									}
@@ -112,40 +112,6 @@
 												"discountPercentage": 0,
 												"displayOriginalTotal": "€4.99",
 												"displayTotalWithDiscount": "€4.99"
-											}
-										]
-									}
-								}
-							]
-						}
-					},
-					{
-						"__typename": "GameMicrocontent",
-						"slug": "need-for-speed-unbound-legendary-theme-pack-1",
-						"baseGameSlug": "need-for-speed-unbound",
-						"gameType": "MICRO_CONTENT",
-						"title": "Need for Speed™ Unbound - Robojets Swag Pack",
-						"id": "en-us_need-for-speed-unbound-legendary-theme-pack-1_VideoGame_ie_pc",
-						"products": {
-							"__typename": "GameMicrocontentProductOffsetPage",
-							"items": [
-								{
-									"__typename": "GameMicrocontentProduct",
-									"id": "en-us_need-for-speed-unbound-legendary-theme-pack-1_VideoGameProduct_hu_pc",
-									"name": "Need for Speed™ Unbound - Robojets Swag Pack",
-									"slug": "need-for-speed-unbound-legendary-theme-pack-1",
-									"gameSlug": "need-for-speed-unbound-legendary-theme-pack-1",
-									"offer": {
-										"__typename": "UserGameProductOffer",
-										"offerId": "Origin.OFR.50.0005217",
-										"offerName": "Need for Speed™ Unbound - Robojets Swag Pack",
-										"purchaseOptions": [
-											{
-												"__typename": "GameProductPurchaseOption",
-												"currency": "EUR",
-												"discountPercentage": 0,
-												"displayOriginalTotal": "€14.99",
-												"displayTotalWithDiscount": "€14.99"
 											}
 										]
 									}
@@ -215,31 +181,65 @@
 					},
 					{
 						"__typename": "GameMicrocontent",
-						"slug": "need-for-speed-unbound-street-pass-1",
+						"slug": "need-for-speed-unbound-robojets-swag-pack",
 						"baseGameSlug": "need-for-speed-unbound",
 						"gameType": "MICRO_CONTENT",
-						"title": "Need for Speed™ Unbound - Ford Mustang GT Legendary Custom Pack",
-						"id": "en-us_need-for-speed-unbound-street-pass-1_VideoGame_ie_pc",
+						"title": "Need for Speed™ Unbound - Robojets Swag Pack",
+						"id": "en-us_need-for-speed-unbound-robojets-swag-pack_VideoGame_ie_pc",
 						"products": {
 							"__typename": "GameMicrocontentProductOffsetPage",
 							"items": [
 								{
 									"__typename": "GameMicrocontentProduct",
-									"id": "en-us_need-for-speed-unbound-street-pass-1_VideoGameProduct_hu_pc",
-									"name": "Need for Speed™ Unbound - Ford Mustang GT Legendary Custom Pack",
-									"slug": "need-for-speed-unbound-street-pass-1",
-									"gameSlug": "need-for-speed-unbound-street-pass-1",
+									"id": "en-us_need-for-speed-unbound-legendary-theme-pack-1_VideoGameProduct_hu_pc",
+									"name": "Need for Speed™ Unbound - Robojets Swag Pack",
+									"slug": "need-for-speed-unbound-legendary-theme-pack-1",
+									"gameSlug": "need-for-speed-unbound-robojets-swag-pack",
 									"offer": {
 										"__typename": "UserGameProductOffer",
-										"offerId": "Origin.OFR.50.0005218",
-										"offerName": "Need for Speed™ Unbound - Ford Mustang GT Legendary Custom Pack",
+										"offerId": "Origin.OFR.50.0005217",
+										"offerName": "Need for Speed™ Unbound - Robojets Swag Pack",
 										"purchaseOptions": [
 											{
 												"__typename": "GameProductPurchaseOption",
 												"currency": "EUR",
 												"discountPercentage": 0,
-												"displayOriginalTotal": "€9.99",
-												"displayTotalWithDiscount": "€9.99"
+												"displayOriginalTotal": "€14.99",
+												"displayTotalWithDiscount": "€14.99"
+											}
+										]
+									}
+								}
+							]
+						}
+					},
+					{
+						"__typename": "GameMicrocontent",
+						"slug": "need-for-speed-unbound-vol-3-customs-pack",
+						"baseGameSlug": "need-for-speed-unbound",
+						"gameType": "MICRO_CONTENT",
+						"title": "Need for Speed™ Unbound - Vol.3 Customs Pack",
+						"id": "en-us_need-for-speed-unbound-vol-3-customs-pack_VideoGame_ie_pc",
+						"products": {
+							"__typename": "GameMicrocontentProductOffsetPage",
+							"items": [
+								{
+									"__typename": "GameMicrocontentProduct",
+									"id": "en-us_need-for-speed-unbound-epic-customs-pack-1_VideoGameProduct_hu_pc",
+									"name": "Need for Speed™ Unbound - Vol.3 Customs Pack",
+									"slug": "need-for-speed-unbound-epic-customs-pack-1",
+									"gameSlug": "need-for-speed-unbound-vol-3-customs-pack",
+									"offer": {
+										"__typename": "UserGameProductOffer",
+										"offerId": "Origin.OFR.50.0005216",
+										"offerName": "Need for Speed™ Unbound - Vol.3 Customs Pack",
+										"purchaseOptions": [
+											{
+												"__typename": "GameProductPurchaseOption",
+												"currency": "EUR",
+												"discountPercentage": 0,
+												"displayOriginalTotal": "€5.99",
+												"displayTotalWithDiscount": "€5.99"
 											}
 										]
 									}
@@ -254,197 +254,71 @@
 				"items": [
 					{
 						"__typename": "GameProduct",
-						"id": "en-us_need-for-speed-unbound-deluxe-edition-pc-nalatamasia-juno_VideoGameProduct_hu_pc",
+						"id": "en-us_need-for-speed-unbound-ea-play-pro-edition-pc-ww-juno_VideoGameProduct_hu_pc",
 						"name": "Need for Speed™ Unbound Palace Edition",
-						"slug": "need-for-speed-unbound-deluxe-edition-pc-nalatamasia-juno",
+						"slug": "need-for-speed-unbound-ea-play-pro-edition-pc-ww-juno",
 						"gameSlug": "need-for-speed-unbound",
 						"offer": {
 							"__typename": "UserGameProductOffer",
-							"offerId": "Origin.OFR.50.0004467",
+							"offerId": "Origin.OFR.50.0004478",
 							"offerName": "Need for Speed™ Unbound Palace Edition",
-							"purchaseOptions": [
-								{
-									"__typename": "GameProductPurchaseOption",
-									"currency": "EUR",
-									"discountPercentage": 0,
-									"displayOriginalTotal": "€79.99",
-									"displayTotalWithDiscount": "€79.99"
-								}
-							],
-							"lowestPricePurchaseOption": {
-								"__typename": "GameProductPurchaseOption",
-								"currency": "EUR",
-								"discountPercentage": 0,
-								"displayOriginalTotal": "€79.99",
-								"displayTotalWithDiscount": "€79.99"
-							}
+							"purchaseOptions": [],
+							"lowestPricePurchaseOption": null
 						},
 						"anonymousOffer": {
 							"__typename": "GameProductOffer",
-							"offerId": "Origin.OFR.50.0004467",
+							"offerId": "Origin.OFR.50.0004478",
 							"offerName": "Need for Speed™ Unbound Palace Edition",
-							"purchaseOptions": [
-								{
-									"__typename": "GameProductPurchaseOption",
-									"currency": "EUR",
-									"discountPercentage": 0,
-									"displayOriginalTotal": "€79.99",
-									"displayTotalWithDiscount": "€79.99"
-								}
-							],
-							"lowestPricePurchaseOption": {
-								"__typename": "GameProductPurchaseOption",
-								"currency": "EUR",
-								"discountPercentage": 0,
-								"displayOriginalTotal": "€79.99",
-								"displayTotalWithDiscount": "€79.99"
-							}
+							"purchaseOptions": [],
+							"lowestPricePurchaseOption": null
 						}
 					},
 					{
 						"__typename": "GameProduct",
-						"id": "en-us_need-for-speed-unbound-standard-edition-loyalty-offer-pc-east-eu-juno_VideoGameProduct_hu_pc",
+						"id": "en-us_need-for-speed-unbound-pc-nalatamasia-juno-play-first-trial_VideoGameProduct_hu_pc",
 						"name": "Need for Speed™ Unbound",
-						"slug": "need-for-speed-unbound-standard-edition-loyalty-offer-pc-east-eu-juno",
+						"slug": "need-for-speed-unbound-pc-nalatamasia-juno-play-first-trial",
 						"gameSlug": "need-for-speed-unbound",
 						"offer": {
 							"__typename": "UserGameProductOffer",
-							"offerId": "Origin.OFR.50.0005056",
-							"offerName": "Need for Speed™ Unbound",
+							"offerId": "Origin.OFR.50.0004976",
+							"offerName": "Need for Speed™ Unbound (Trial)",
 							"purchaseOptions": [
 								{
 									"__typename": "GameProductPurchaseOption",
 									"currency": "EUR",
 									"discountPercentage": 0,
-									"displayOriginalTotal": "€69.99",
-									"displayTotalWithDiscount": "€69.99"
+									"displayOriginalTotal": "€0.00",
+									"displayTotalWithDiscount": "€0.00"
 								}
 							],
 							"lowestPricePurchaseOption": {
 								"__typename": "GameProductPurchaseOption",
 								"currency": "EUR",
 								"discountPercentage": 0,
-								"displayOriginalTotal": "€69.99",
-								"displayTotalWithDiscount": "€69.99"
+								"displayOriginalTotal": "€0.00",
+								"displayTotalWithDiscount": "€0.00"
 							}
 						},
 						"anonymousOffer": {
 							"__typename": "GameProductOffer",
-							"offerId": "Origin.OFR.50.0005056",
-							"offerName": "Need for Speed™ Unbound",
+							"offerId": "Origin.OFR.50.0004976",
+							"offerName": "Need for Speed™ Unbound (Trial)",
 							"purchaseOptions": [
 								{
 									"__typename": "GameProductPurchaseOption",
 									"currency": "EUR",
 									"discountPercentage": 0,
-									"displayOriginalTotal": "€69.99",
-									"displayTotalWithDiscount": "€69.99"
+									"displayOriginalTotal": "€0.00",
+									"displayTotalWithDiscount": "€0.00"
 								}
 							],
 							"lowestPricePurchaseOption": {
 								"__typename": "GameProductPurchaseOption",
 								"currency": "EUR",
 								"discountPercentage": 0,
-								"displayOriginalTotal": "€69.99",
-								"displayTotalWithDiscount": "€69.99"
-							}
-						}
-					},
-					{
-						"__typename": "GameProduct",
-						"id": "en-us_need-for-speed-unbound-deluxe-preorder-edition-bundle-loyalty-offer-pc-west-eu-all-langs-juno_VideoGameProduct_hu_pc",
-						"name": "Need for Speed™ Unbound Palace Edition",
-						"slug": "need-for-speed-unbound-deluxe-preorder-edition-bundle-loyalty-offer-pc-west-eu-all-langs-juno",
-						"gameSlug": "need-for-speed-unbound",
-						"offer": {
-							"__typename": "UserGameProductOffer",
-							"offerId": "Origin.OFR.50.0005061",
-							"offerName": "Need for Speed™ Unbound Palace Edition",
-							"purchaseOptions": [
-								{
-									"__typename": "GameProductPurchaseOption",
-									"currency": "EUR",
-									"discountPercentage": 0,
-									"displayOriginalTotal": "€79.99",
-									"displayTotalWithDiscount": "€79.99"
-								}
-							],
-							"lowestPricePurchaseOption": {
-								"__typename": "GameProductPurchaseOption",
-								"currency": "EUR",
-								"discountPercentage": 0,
-								"displayOriginalTotal": "€79.99",
-								"displayTotalWithDiscount": "€79.99"
-							}
-						},
-						"anonymousOffer": {
-							"__typename": "GameProductOffer",
-							"offerId": "Origin.OFR.50.0005061",
-							"offerName": "Need for Speed™ Unbound Palace Edition",
-							"purchaseOptions": [
-								{
-									"__typename": "GameProductPurchaseOption",
-									"currency": "EUR",
-									"discountPercentage": 0,
-									"displayOriginalTotal": "€79.99",
-									"displayTotalWithDiscount": "€79.99"
-								}
-							],
-							"lowestPricePurchaseOption": {
-								"__typename": "GameProductPurchaseOption",
-								"currency": "EUR",
-								"discountPercentage": 0,
-								"displayOriginalTotal": "€79.99",
-								"displayTotalWithDiscount": "€79.99"
-							}
-						}
-					},
-					{
-						"__typename": "GameProduct",
-						"id": "en-us_need-for-speed-unbound-deluxe-preorder-edition-west-eu-pc-ww-juno_VideoGameProduct_hu_pc",
-						"name": "Need for Speed™ Unbound Palace Edition",
-						"slug": "need-for-speed-unbound-deluxe-preorder-edition-west-eu-pc-ww-juno",
-						"gameSlug": "need-for-speed-unbound",
-						"offer": {
-							"__typename": "UserGameProductOffer",
-							"offerId": "Origin.OFR.50.0004471",
-							"offerName": "Need for Speed™ Unbound Palace Edition",
-							"purchaseOptions": [
-								{
-									"__typename": "GameProductPurchaseOption",
-									"currency": "EUR",
-									"discountPercentage": 0,
-									"displayOriginalTotal": "€79.99",
-									"displayTotalWithDiscount": "€79.99"
-								}
-							],
-							"lowestPricePurchaseOption": {
-								"__typename": "GameProductPurchaseOption",
-								"currency": "EUR",
-								"discountPercentage": 0,
-								"displayOriginalTotal": "€79.99",
-								"displayTotalWithDiscount": "€79.99"
-							}
-						},
-						"anonymousOffer": {
-							"__typename": "GameProductOffer",
-							"offerId": "Origin.OFR.50.0004471",
-							"offerName": "Need for Speed™ Unbound Palace Edition",
-							"purchaseOptions": [
-								{
-									"__typename": "GameProductPurchaseOption",
-									"currency": "EUR",
-									"discountPercentage": 0,
-									"displayOriginalTotal": "€79.99",
-									"displayTotalWithDiscount": "€79.99"
-								}
-							],
-							"lowestPricePurchaseOption": {
-								"__typename": "GameProductPurchaseOption",
-								"currency": "EUR",
-								"discountPercentage": 0,
-								"displayOriginalTotal": "€79.99",
-								"displayTotalWithDiscount": "€79.99"
+								"displayOriginalTotal": "€0.00",
+								"displayTotalWithDiscount": "€0.00"
 							}
 						}
 					},
@@ -548,6 +422,55 @@
 					},
 					{
 						"__typename": "GameProduct",
+						"id": "en-us_need-for-speed-unbound-deluxe-preorder-edition-west-eu-pc-ww-juno_VideoGameProduct_hu_pc",
+						"name": "Need for Speed™ Unbound Palace Edition",
+						"slug": "need-for-speed-unbound-deluxe-preorder-edition-west-eu-pc-ww-juno",
+						"gameSlug": "need-for-speed-unbound",
+						"offer": {
+							"__typename": "UserGameProductOffer",
+							"offerId": "Origin.OFR.50.0004471",
+							"offerName": "Need for Speed™ Unbound Palace Edition",
+							"purchaseOptions": [
+								{
+									"__typename": "GameProductPurchaseOption",
+									"currency": "EUR",
+									"discountPercentage": 0,
+									"displayOriginalTotal": "€79.99",
+									"displayTotalWithDiscount": "€79.99"
+								}
+							],
+							"lowestPricePurchaseOption": {
+								"__typename": "GameProductPurchaseOption",
+								"currency": "EUR",
+								"discountPercentage": 0,
+								"displayOriginalTotal": "€79.99",
+								"displayTotalWithDiscount": "€79.99"
+							}
+						},
+						"anonymousOffer": {
+							"__typename": "GameProductOffer",
+							"offerId": "Origin.OFR.50.0004471",
+							"offerName": "Need for Speed™ Unbound Palace Edition",
+							"purchaseOptions": [
+								{
+									"__typename": "GameProductPurchaseOption",
+									"currency": "EUR",
+									"discountPercentage": 0,
+									"displayOriginalTotal": "€79.99",
+									"displayTotalWithDiscount": "€79.99"
+								}
+							],
+							"lowestPricePurchaseOption": {
+								"__typename": "GameProductPurchaseOption",
+								"currency": "EUR",
+								"discountPercentage": 0,
+								"displayOriginalTotal": "€79.99",
+								"displayTotalWithDiscount": "€79.99"
+							}
+						}
+					},
+					{
+						"__typename": "GameProduct",
 						"id": "en-us_need-for-speed-unbound-deluxe-preorder-edition-pc-nalatamasia-juno_VideoGameProduct_hu_pc",
 						"name": "Need for Speed™ Unbound Palace Edition",
 						"slug": "need-for-speed-unbound-deluxe-preorder-edition-pc-nalatamasia-juno",
@@ -576,55 +499,6 @@
 						"anonymousOffer": {
 							"__typename": "GameProductOffer",
 							"offerId": "Origin.OFR.50.0004473",
-							"offerName": "Need for Speed™ Unbound Palace Edition",
-							"purchaseOptions": [
-								{
-									"__typename": "GameProductPurchaseOption",
-									"currency": "EUR",
-									"discountPercentage": 0,
-									"displayOriginalTotal": "€79.99",
-									"displayTotalWithDiscount": "€79.99"
-								}
-							],
-							"lowestPricePurchaseOption": {
-								"__typename": "GameProductPurchaseOption",
-								"currency": "EUR",
-								"discountPercentage": 0,
-								"displayOriginalTotal": "€79.99",
-								"displayTotalWithDiscount": "€79.99"
-							}
-						}
-					},
-					{
-						"__typename": "GameProduct",
-						"id": "en-us_need-for-speed-unbound-deluxe-preorder-edition-bundle-loyalty-offer-pc-east-eu-juno_VideoGameProduct_hu_pc",
-						"name": "Need for Speed™ Unbound Palace Edition",
-						"slug": "need-for-speed-unbound-deluxe-preorder-edition-bundle-loyalty-offer-pc-east-eu-juno",
-						"gameSlug": "need-for-speed-unbound",
-						"offer": {
-							"__typename": "UserGameProductOffer",
-							"offerId": "Origin.OFR.50.0005059",
-							"offerName": "Need for Speed™ Unbound Palace Edition",
-							"purchaseOptions": [
-								{
-									"__typename": "GameProductPurchaseOption",
-									"currency": "EUR",
-									"discountPercentage": 0,
-									"displayOriginalTotal": "€79.99",
-									"displayTotalWithDiscount": "€79.99"
-								}
-							],
-							"lowestPricePurchaseOption": {
-								"__typename": "GameProductPurchaseOption",
-								"currency": "EUR",
-								"discountPercentage": 0,
-								"displayOriginalTotal": "€79.99",
-								"displayTotalWithDiscount": "€79.99"
-							}
-						},
-						"anonymousOffer": {
-							"__typename": "GameProductOffer",
-							"offerId": "Origin.OFR.50.0005059",
 							"offerName": "Need for Speed™ Unbound Palace Edition",
 							"purchaseOptions": [
 								{
@@ -695,6 +569,55 @@
 					},
 					{
 						"__typename": "GameProduct",
+						"id": "en-us_need-for-speed-unbound-deluxe-preorder-edition-bundle-loyalty-offer-pc-west-eu-all-langs-juno_VideoGameProduct_hu_pc",
+						"name": "Need for Speed™ Unbound Palace Edition",
+						"slug": "need-for-speed-unbound-deluxe-preorder-edition-bundle-loyalty-offer-pc-west-eu-all-langs-juno",
+						"gameSlug": "need-for-speed-unbound",
+						"offer": {
+							"__typename": "UserGameProductOffer",
+							"offerId": "Origin.OFR.50.0005061",
+							"offerName": "Need for Speed™ Unbound Palace Edition",
+							"purchaseOptions": [
+								{
+									"__typename": "GameProductPurchaseOption",
+									"currency": "EUR",
+									"discountPercentage": 0,
+									"displayOriginalTotal": "€79.99",
+									"displayTotalWithDiscount": "€79.99"
+								}
+							],
+							"lowestPricePurchaseOption": {
+								"__typename": "GameProductPurchaseOption",
+								"currency": "EUR",
+								"discountPercentage": 0,
+								"displayOriginalTotal": "€79.99",
+								"displayTotalWithDiscount": "€79.99"
+							}
+						},
+						"anonymousOffer": {
+							"__typename": "GameProductOffer",
+							"offerId": "Origin.OFR.50.0005061",
+							"offerName": "Need for Speed™ Unbound Palace Edition",
+							"purchaseOptions": [
+								{
+									"__typename": "GameProductPurchaseOption",
+									"currency": "EUR",
+									"discountPercentage": 0,
+									"displayOriginalTotal": "€79.99",
+									"displayTotalWithDiscount": "€79.99"
+								}
+							],
+							"lowestPricePurchaseOption": {
+								"__typename": "GameProductPurchaseOption",
+								"currency": "EUR",
+								"discountPercentage": 0,
+								"displayOriginalTotal": "€79.99",
+								"displayTotalWithDiscount": "€79.99"
+							}
+						}
+					},
+					{
+						"__typename": "GameProduct",
 						"id": "en-us_need-for-speed-unbound-deluxe-preorder-edition-bundle-loyalty-offer-pc-nalatamasia-juno_VideoGameProduct_hu_pc",
 						"name": "Need for Speed™ Unbound Palace Edition",
 						"slug": "need-for-speed-unbound-deluxe-preorder-edition-bundle-loyalty-offer-pc-nalatamasia-juno",
@@ -744,71 +667,148 @@
 					},
 					{
 						"__typename": "GameProduct",
-						"id": "en-us_need-for-speed-unbound-ea-play-pro-edition-pc-ww-juno_VideoGameProduct_hu_pc",
+						"id": "en-us_need-for-speed-unbound-deluxe-edition-pc-nalatamasia-juno_VideoGameProduct_hu_pc",
 						"name": "Need for Speed™ Unbound Palace Edition",
-						"slug": "need-for-speed-unbound-ea-play-pro-edition-pc-ww-juno",
+						"slug": "need-for-speed-unbound-deluxe-edition-pc-nalatamasia-juno",
 						"gameSlug": "need-for-speed-unbound",
 						"offer": {
 							"__typename": "UserGameProductOffer",
-							"offerId": "Origin.OFR.50.0004478",
+							"offerId": "Origin.OFR.50.0004467",
 							"offerName": "Need for Speed™ Unbound Palace Edition",
-							"purchaseOptions": [],
-							"lowestPricePurchaseOption": null
-						},
-						"anonymousOffer": {
-							"__typename": "GameProductOffer",
-							"offerId": "Origin.OFR.50.0004478",
-							"offerName": "Need for Speed™ Unbound Palace Edition",
-							"purchaseOptions": [],
-							"lowestPricePurchaseOption": null
-						}
-					},
-					{
-						"__typename": "GameProduct",
-						"id": "en-us_need-for-speed-unbound-pc-nalatamasia-juno-play-first-trial_VideoGameProduct_hu_pc",
-						"name": "Need for Speed™ Unbound",
-						"slug": "need-for-speed-unbound-pc-nalatamasia-juno-play-first-trial",
-						"gameSlug": "need-for-speed-unbound",
-						"offer": {
-							"__typename": "UserGameProductOffer",
-							"offerId": "Origin.OFR.50.0004976",
-							"offerName": "Need for Speed™ Unbound (Trial)",
 							"purchaseOptions": [
 								{
 									"__typename": "GameProductPurchaseOption",
 									"currency": "EUR",
 									"discountPercentage": 0,
-									"displayOriginalTotal": "€0.00",
-									"displayTotalWithDiscount": "€0.00"
+									"displayOriginalTotal": "€79.99",
+									"displayTotalWithDiscount": "€79.99"
 								}
 							],
 							"lowestPricePurchaseOption": {
 								"__typename": "GameProductPurchaseOption",
 								"currency": "EUR",
 								"discountPercentage": 0,
-								"displayOriginalTotal": "€0.00",
-								"displayTotalWithDiscount": "€0.00"
+								"displayOriginalTotal": "€79.99",
+								"displayTotalWithDiscount": "€79.99"
 							}
 						},
 						"anonymousOffer": {
 							"__typename": "GameProductOffer",
-							"offerId": "Origin.OFR.50.0004976",
-							"offerName": "Need for Speed™ Unbound (Trial)",
+							"offerId": "Origin.OFR.50.0004467",
+							"offerName": "Need for Speed™ Unbound Palace Edition",
 							"purchaseOptions": [
 								{
 									"__typename": "GameProductPurchaseOption",
 									"currency": "EUR",
 									"discountPercentage": 0,
-									"displayOriginalTotal": "€0.00",
-									"displayTotalWithDiscount": "€0.00"
+									"displayOriginalTotal": "€79.99",
+									"displayTotalWithDiscount": "€79.99"
 								}
 							],
 							"lowestPricePurchaseOption": {
 								"__typename": "GameProductPurchaseOption",
 								"currency": "EUR",
 								"discountPercentage": 0,
-								"displayOriginalTotal": "€0.00",
-								"displayTotalWithDiscount": "€0.00"
+								"displayOriginalTotal": "€79.99",
+								"displayTotalWithDiscount": "€79.99"
+							}
+						}
+					},
+					{
+						"__typename": "GameProduct",
+						"id": "en-us_need-for-speed-unbound-standard-edition-loyalty-offer-pc-east-eu-juno_VideoGameProduct_hu_pc",
+						"name": "Need for Speed™ Unbound",
+						"slug": "need-for-speed-unbound-standard-edition-loyalty-offer-pc-east-eu-juno",
+						"gameSlug": "need-for-speed-unbound",
+						"offer": {
+							"__typename": "UserGameProductOffer",
+							"offerId": "Origin.OFR.50.0005056",
+							"offerName": "Need for Speed™ Unbound",
+							"purchaseOptions": [
+								{
+									"__typename": "GameProductPurchaseOption",
+									"currency": "EUR",
+									"discountPercentage": 0,
+									"displayOriginalTotal": "€69.99",
+									"displayTotalWithDiscount": "€69.99"
+								}
+							],
+							"lowestPricePurchaseOption": {
+								"__typename": "GameProductPurchaseOption",
+								"currency": "EUR",
+								"discountPercentage": 0,
+								"displayOriginalTotal": "€69.99",
+								"displayTotalWithDiscount": "€69.99"
+							}
+						},
+						"anonymousOffer": {
+							"__typename": "GameProductOffer",
+							"offerId": "Origin.OFR.50.0005056",
+							"offerName": "Need for Speed™ Unbound",
+							"purchaseOptions": [
+								{
+									"__typename": "GameProductPurchaseOption",
+									"currency": "EUR",
+									"discountPercentage": 0,
+									"displayOriginalTotal": "€69.99",
+									"displayTotalWithDiscount": "€69.99"
+								}
+							],
+							"lowestPricePurchaseOption": {
+								"__typename": "GameProductPurchaseOption",
+								"currency": "EUR",
+								"discountPercentage": 0,
+								"displayOriginalTotal": "€69.99",
+								"displayTotalWithDiscount": "€69.99"
+							}
+						}
+					},
+					{
+						"__typename": "GameProduct",
+						"id": "en-us_need-for-speed-unbound-deluxe-preorder-edition-bundle-loyalty-offer-pc-east-eu-juno_VideoGameProduct_hu_pc",
+						"name": "Need for Speed™ Unbound Palace Edition",
+						"slug": "need-for-speed-unbound-deluxe-preorder-edition-bundle-loyalty-offer-pc-east-eu-juno",
+						"gameSlug": "need-for-speed-unbound",
+						"offer": {
+							"__typename": "UserGameProductOffer",
+							"offerId": "Origin.OFR.50.0005059",
+							"offerName": "Need for Speed™ Unbound Palace Edition",
+							"purchaseOptions": [
+								{
+									"__typename": "GameProductPurchaseOption",
+									"currency": "EUR",
+									"discountPercentage": 0,
+									"displayOriginalTotal": "€79.99",
+									"displayTotalWithDiscount": "€79.99"
+								}
+							],
+							"lowestPricePurchaseOption": {
+								"__typename": "GameProductPurchaseOption",
+								"currency": "EUR",
+								"discountPercentage": 0,
+								"displayOriginalTotal": "€79.99",
+								"displayTotalWithDiscount": "€79.99"
+							}
+						},
+						"anonymousOffer": {
+							"__typename": "GameProductOffer",
+							"offerId": "Origin.OFR.50.0005059",
+							"offerName": "Need for Speed™ Unbound Palace Edition",
+							"purchaseOptions": [
+								{
+									"__typename": "GameProductPurchaseOption",
+									"currency": "EUR",
+									"discountPercentage": 0,
+									"displayOriginalTotal": "€79.99",
+									"displayTotalWithDiscount": "€79.99"
+								}
+							],
+							"lowestPricePurchaseOption": {
+								"__typename": "GameProductPurchaseOption",
+								"currency": "EUR",
+								"discountPercentage": 0,
+								"displayOriginalTotal": "€79.99",
+								"displayTotalWithDiscount": "€79.99"
 							}
 						}
 					},
