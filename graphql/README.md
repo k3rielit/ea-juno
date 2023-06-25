@@ -6,8 +6,8 @@
 | Operation | Query | Response |
 |-----------|-------|----------|
 | GameOffers | [GameOffers.graphql](queries/GameOffers.graphql) | [GameOffers.example.json](queries/GameOffers.example.json) |
+| gameProductsOffers | [gameProductsOffers.graphql](queries/gameProductsOffers.graphql) | [gameProductsOffers.example.json](queries/gameProductsOffers.example.json) |
 | PlanSelection | [PlanSelection.graphql](queries/PlanSelection.graphql) | [PlanSelection.example.json](queries/PlanSelection.example.json) |
-| gameProductsOffers | TODO | TODO |
 | gameRegionalRatingV2 | TODO | TODO |
 | Search | TODO | TODO |
 | ... | ... | ... |
