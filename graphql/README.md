@@ -67,6 +67,8 @@ Enum \"SearchGameType\" cannot represent non-enum value: \"xd\".
 Cannot query field \"gameSlug\" on type \"Game\". Did you mean \"baseGameSlug\", \"gameBans\", \"gameType\", or \"slug\"?
 
 Cannot query field \"id\" on type \"GameAddonsResult\". Did you mean to use an inline fragment on \"GameV2\", \"GameBundlePack\", \"GameCurrency\", \"GameExpansion\", or \"GameMicrocontent\"?
+
+Cannot query field \"items\" on type \"GameFeature\". Did you mean \"text\" or \"videos\"?
 ```
 
 Conditioning an [AI](https://chat.openai.com/chat) to act as the API is another great way to discover new data. Feed it with existing queries and structures, and make it guess.

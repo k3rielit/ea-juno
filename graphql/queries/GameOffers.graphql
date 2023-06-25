@@ -12,9 +12,13 @@ query GameOffers {
 		items {
 			__typename # Game
 			slug
-			title
 			id
+			title
 		}
+	}
+	gameById: game(masterTitleId:"?") {
+		__typename # Game
+		slug
 	}
 	game(slug: "need-for-speed-unbound") {
 		__typename # Game
@@ -24,6 +28,41 @@ query GameOffers {
 		title
 		gameType
 		baseGameSlug
+		videos {
+			__typename # VideosOffsetPage
+			items {
+				__typename # Video
+				slug
+				id
+				title
+				source
+				description
+				thumbnail {
+					__typename # ImageRendition
+				}
+				tags {
+					__typename # Classification
+				}
+			}
+		}
+		features {
+			__typename # GameFeature
+			text
+			videos {
+				__typename # Video
+				slug
+				id
+				title
+				source
+				description
+				thumbnail {
+					__typename # ImageRendition
+				}
+				tags {
+					__typename # Classification
+				}
+			}
+		}
 		genres {
 			__typename # Genre
 			id

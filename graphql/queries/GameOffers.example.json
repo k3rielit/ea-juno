@@ -7,29 +7,30 @@
 				{
 					"__typename": "Game",
 					"slug": "need-for-speed-unbound",
-					"title": "Need for Speed™ Unbound",
-					"id": "en-us_need-for-speed-unbound_VideoGame_hu_pc"
+					"id": "en-us_need-for-speed-unbound_VideoGame_hu_pc",
+					"title": "Need for Speed™ Unbound"
 				},
 				{
 					"__typename": "Game",
 					"slug": "need-for-speed-payback",
-					"title": "Need for Speed™ Payback",
-					"id": "en-us_need-for-speed-payback_VideoGame_hu_pc"
+					"id": "en-us_need-for-speed-payback_VideoGame_hu_pc",
+					"title": "Need for Speed™ Payback"
 				},
 				{
 					"__typename": "Game",
 					"slug": "need-for-speed-heat",
-					"title": "Need for Speed™ Heat",
-					"id": "en-us_need-for-speed-heat_VideoGame_hu_pc"
+					"id": "en-us_need-for-speed-heat_VideoGame_hu_pc",
+					"title": "Need for Speed™ Heat"
 				},
 				{
 					"__typename": "Game",
 					"slug": "need-for-speed",
-					"title": "Need for Speed",
-					"id": "en-us_need-for-speed_VideoGame_hu_pc"
+					"id": "en-us_need-for-speed_VideoGame_hu_pc",
+					"title": "Need for Speed"
 				}
 			]
 		},
+		"gameById": null,
 		"game": {
 			"__typename": "Game",
 			"slug": "need-for-speed-unbound",
@@ -38,6 +39,11 @@
 			"title": "Need for Speed™ Unbound",
 			"gameType": "BASE_GAME",
 			"baseGameSlug": null,
+			"videos": {
+				"__typename": "VideosOffsetPage",
+				"items": []
+			},
+			"features": [],
 			"genres": [
 				{
 					"__typename": "Genre",
