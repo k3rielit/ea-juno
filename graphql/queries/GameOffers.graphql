@@ -10,14 +10,14 @@ query GameOffers {
 	) {
 		__typename # GamesOffsetPage
 		items {
-			__typename # Game
+			__typename # Game, simplified
 			slug
 			id
 			title
 		}
 	}
 	gameById: game(masterTitleId:"?") {
-		__typename # Game
+		__typename # Game, simplified
 		slug
 	}
 	game(slug: "need-for-speed-unbound") {
@@ -28,6 +28,16 @@ query GameOffers {
 		title
 		gameType
 		baseGameSlug
+		baseGame {
+			__typename # Game, simplified
+			slug
+			id
+		}
+		systemRequirements {
+			__typename # SystemRequirements
+			minimum
+			recommended
+		}
 		videos {
 			__typename # VideosOffsetPage
 			items {
@@ -39,6 +49,11 @@ query GameOffers {
 				description
 				thumbnail {
 					__typename # ImageRendition
+					title
+					description
+					rawImages {
+						__typename # Image
+					}
 				}
 				tags {
 					__typename # Classification
@@ -57,6 +72,14 @@ query GameOffers {
 				description
 				thumbnail {
 					__typename # ImageRendition
+					title
+					description
+					rawImages {
+						__typename # Image
+						... on Image {
+							__typename
+						}
+					}
 				}
 				tags {
 					__typename # Classification
@@ -71,21 +94,35 @@ query GameOffers {
 		}
 		gameBans
 		ratings {
-			__typename # ? probably Rating
+			__typename # GameRating
 			id
 			name
 			slug
 		}
 		addons {
 			__typename # GameAddonsOffsetPage
-			items {
-				... on GameMicrocontent { # inline fragment: GameV2 GameBundlePack GameCurrency GameExpansion GameMicrocontent
-					__typename # GameMicrocontent
+			gameV2: items {
+				... on GameV2 {
+					__typename # GameMicrocontent:GameV2
 					slug
-					baseGameSlug
-					gameType
 					title
 					id
+					gameType
+					# inline fragment on \"Game\", \"GameBundlePack\", \"GameCurrency\", \"GameExpansion\", or \"GameMicrocontent\"
+				}
+			}
+			gameBundlePack: items {
+				... on GameBundlePack {
+					__typename # GameMicrocontent:GameBundlePack
+					slug
+					title
+					id
+					gameType
+					baseGameSlug
+					baseGame {
+						__typename # Game, simplified
+						slug
+					}
 					products {
 						__typename # GameMicrocontentProductOffsetPage
 						items {
@@ -94,6 +131,135 @@ query GameOffers {
 							name
 							slug
 							gameSlug
+							baseItem {
+								__typename # GameMicrocontent, simplified
+								slug
+								id
+							}
+							offer {
+								__typename # UserGameProductOffer
+								offerId
+								offerName
+								purchaseOptions {
+									__typename # GameProductPurchaseOption
+									currency
+									discountPercentage
+									displayOriginalTotal
+									displayTotalWithDiscount
+								}
+							}
+						}
+					}
+				}
+			}
+			gameCurrency: items {
+				... on GameCurrency {
+					__typename # GameMicrocontent:GameCurrency
+					slug
+					title
+					id
+					gameType
+					baseGameSlug
+					baseGame {
+						__typename # Game, simplified
+						slug
+					}
+					products {
+						__typename # GameMicrocontentProductOffsetPage
+						items {
+							__typename # GameMicrocontentProduct
+							id
+							name
+							slug
+							gameSlug
+							baseItem {
+								__typename # GameMicrocontent, simplified
+								slug
+								id
+							}
+							offer {
+								__typename # UserGameProductOffer
+								offerId
+								offerName
+								purchaseOptions {
+									__typename # GameProductPurchaseOption
+									currency
+									discountPercentage
+									displayOriginalTotal
+									displayTotalWithDiscount
+								}
+							}
+						}
+					}
+				}
+			}
+			gameExpansion: items {
+				... on GameExpansion {
+					__typename # GameMicrocontent:GameExpansion
+					slug
+					title
+					id
+					gameType
+					baseGameSlug
+					baseGame {
+						__typename # Game, simplified
+						slug
+					}
+					products {
+						__typename # GameMicrocontentProductOffsetPage
+						items {
+							__typename # GameMicrocontentProduct
+							id
+							name
+							slug
+							gameSlug
+							baseItem {
+								__typename # GameMicrocontent, simplified
+								slug
+								id
+							}
+							offer {
+								__typename # UserGameProductOffer
+								offerId
+								offerName
+								purchaseOptions {
+									__typename # GameProductPurchaseOption
+									currency
+									discountPercentage
+									displayOriginalTotal
+									displayTotalWithDiscount
+								}
+							}
+						}
+					}
+				}
+			}
+			gameMicroContent: items {
+				... on GameMicrocontent {
+					__typename # GameMicrocontent
+					slug
+					gameType
+					title
+					id
+					gameType
+					baseGameSlug
+					baseGame {
+						__typename # Game, simplified
+						slug
+					}
+					products {
+						__typename # GameMicrocontentProductOffsetPage
+						items {
+							__typename # GameMicrocontentProduct
+							id
+							name
+							slug
+							gameSlug
+							baseItem {
+								__typename # GameMicrocontent, simplified
+								slug
+								id
+							}
 							offer {
 								__typename # UserGameProductOffer
 								offerId

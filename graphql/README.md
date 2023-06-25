@@ -69,13 +69,22 @@ Cannot query field \"gameSlug\" on type \"Game\". Did you mean \"baseGameSlug\",
 Cannot query field \"id\" on type \"GameAddonsResult\". Did you mean to use an inline fragment on \"GameV2\", \"GameBundlePack\", \"GameCurrency\", \"GameExpansion\", or \"GameMicrocontent\"?
 
 Cannot query field \"items\" on type \"GameFeature\". Did you mean \"text\" or \"videos\"?
+
+Cannot query field \"baseGameSlug\" on type \"GameV2\". Did you mean to use an inline fragment on \"Game\", \"GameBundlePack\", \"GameCurrency\", \"GameExpansion\", or \"GameMicrocontent\"?
 ```
 
 Conditioning an [AI](https://chat.openai.com/chat) to act as the API is another great way to discover new data. Feed it with existing queries and structures, and make it guess.
 
+## TODO
+
+[ ] GraphQL schema
+[ ] Type reference table
+
 ## Notes
 
-Operation names will accept any valid field. For example you can request the **gameSearch** field in the **PlanSelection** query.
+Operation names will accept any valid field, but you can't query without one. For example you can request the **gameSearch** field in the **PlanSelection** query.
+
+There can be parent/base references inside types, which are indicated by *simplified* comments on typenames. GameOffers is the query right now that holds most fully described types. For ex. a **Game** points to it's list of **GameMicrocontent**, which points back to its **baseGame:Game**. This is useful when we only have an offerId, which can be queried for it's gameType, and if it's MICRO_CONTENT, the parent reference will return the base game.
 
 **Insomnia** tends to get stuck if you use an incorrect operation name, and when you correct the name, it still queries with the old bad/wrong one.
 

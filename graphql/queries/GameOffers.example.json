@@ -39,6 +39,14 @@
 			"title": "Need for Speed™ Unbound",
 			"gameType": "BASE_GAME",
 			"baseGameSlug": null,
+			"baseGame": null,
+			"systemRequirements": [
+				{
+					"__typename": "SystemRequirements",
+					"minimum": "<b>OS:</b> 64-bit Windows 10<br>\n<b>Processor (AMD):</b> Ryzen 5 2600 or Equivalent<br>\n<b>Processor (Intel):</b> Core i5-8600 or Equivalent<br>\n<b>Memory:</b> 8 GB<br>\n<b>Graphics card (AMD):</b> RX 570 or Equivalent<br>\n<b>Graphics card (NVIDIA):</b> GTX 1050 Ti or Equivalent<br>\n<b>DirectX:</b> 12 Compatible video card or equivalent<br>\n<b>Online Connection Requirements:</b> 320 KBPS or faster Internet connection<br>\n<b>Hard-drive space:</b> 50 GB",
+					"recommended": "<b>OS:</b> 64-bit Windows 10<br>\n<b>Processor (AMD):</b> Ryzen 5 3600 or Equivalent<br>\n<b>Processor (Intel):</b> Core i7-8700 or Equivalent<br>\n<b>Memory:</b> 16 GB<br>\n<b>Graphics card (AMD):</b> Radeon RX5700 (8GB) or Equivalent<br>\n<b>Graphics card (NVIDIA):</b> GeForce RTX 2070 (8GB) or Equivalent<br>\n<b>DirectX:</b> 12 Compatible video card or equivalent<br>\n<b>Online Connection Requirements:</b> 512 KBPS or faster Internet connection<br>\n<b>Hard-drive space:</b> 50 GB"
+				}
+			],
 			"videos": {
 				"__typename": "VideosOffsetPage",
 				"items": []
@@ -56,14 +64,86 @@
 			"ratings": [],
 			"addons": {
 				"__typename": "GameAddonsOffsetPage",
-				"items": [
+				"gameV2": [
 					{
 						"__typename": "GameMicrocontent",
 						"slug": "need-for-speed-unbound-ford-mustang-gt-legendary-custom-pack",
-						"baseGameSlug": "need-for-speed-unbound",
+						"title": "Need for Speed™ Unbound - Ford Mustang GT Legendary Custom Pack",
+						"id": "en-us_need-for-speed-unbound-ford-mustang-gt-legendary-custom-pack_VideoGame_ie_pc",
+						"gameType": "MICRO_CONTENT"
+					},
+					{
+						"__typename": "GameMicrocontent",
+						"slug": "need-for-speed-unbound-keys-to-the-map",
+						"title": "Need for Speed™ Unbound - Keys to the Map",
+						"id": "en-us_need-for-speed-unbound-keys-to-the-map_VideoGame_ie_pc",
+						"gameType": "MICRO_CONTENT"
+					},
+					{
+						"__typename": "GameMicrocontent",
+						"slug": "need-for-speed-unbound-palace-edition-upgrade",
+						"title": "Need for Speed™ Unbound Palace Upgrade",
+						"id": "en-us_need-for-speed-unbound-palace-edition-upgrade_VideoGame_ie_pc",
+						"gameType": "MICRO_CONTENT"
+					},
+					{
+						"__typename": "GameMicrocontent",
+						"slug": "need-for-speed-unbound-pre-order-content",
+						"title": "Need for Speed™ Unbound Pre-order Content",
+						"id": "en-us_need-for-speed-unbound-pre-order-content_VideoGame_ie_pc",
+						"gameType": "MICRO_CONTENT"
+					},
+					{
+						"__typename": "GameMicrocontent",
+						"slug": "need-for-speed-unbound-robojets-swag-pack",
+						"title": "Need for Speed™ Unbound - Robojets Swag Pack",
+						"id": "en-us_need-for-speed-unbound-robojets-swag-pack_VideoGame_ie_pc",
+						"gameType": "MICRO_CONTENT"
+					},
+					{
+						"__typename": "GameMicrocontent",
+						"slug": "need-for-speed-unbound-vol-3-customs-pack",
+						"title": "Need for Speed™ Unbound - Vol.3 Customs Pack",
+						"id": "en-us_need-for-speed-unbound-vol-3-customs-pack_VideoGame_ie_pc",
+						"gameType": "MICRO_CONTENT"
+					}
+				],
+				"gameBundlePack": [
+					{},
+					{},
+					{},
+					{},
+					{},
+					{}
+				],
+				"gameCurrency": [
+					{},
+					{},
+					{},
+					{},
+					{},
+					{}
+				],
+				"gameExpansion": [
+					{},
+					{},
+					{},
+					{},
+					{},
+					{}
+				],
+				"gameMicroContent": [
+					{
+						"__typename": "GameMicrocontent",
+						"slug": "need-for-speed-unbound-ford-mustang-gt-legendary-custom-pack",
 						"gameType": "MICRO_CONTENT",
 						"title": "Need for Speed™ Unbound - Ford Mustang GT Legendary Custom Pack",
 						"id": "en-us_need-for-speed-unbound-ford-mustang-gt-legendary-custom-pack_VideoGame_ie_pc",
+						"baseGameSlug": "need-for-speed-unbound",
+						"baseGame": {
+							"__typename": "Game",
+							"slug": "need-for-speed-unbound"
+						},
 						"products": {
 							"__typename": "GameMicrocontentProductOffsetPage",
 							"items": [
@@ -73,6 +153,11 @@
 									"name": "Need for Speed™ Unbound - Ford Mustang GT Legendary Custom Pack",
 									"slug": "need-for-speed-unbound-street-pass-1",
 									"gameSlug": "need-for-speed-unbound-ford-mustang-gt-legendary-custom-pack",
+									"baseItem": {
+										"__typename": "GameMicrocontent",
+										"slug": "need-for-speed-unbound-ford-mustang-gt-legendary-custom-pack",
+										"id": "en-us_need-for-speed-unbound-ford-mustang-gt-legendary-custom-pack_VideoGame_hu_pc"
+									},
 									"offer": {
 										"__typename": "UserGameProductOffer",
 										"offerId": "Origin.OFR.50.0005218",
@@ -94,10 +179,14 @@
 					{
 						"__typename": "GameMicrocontent",
 						"slug": "need-for-speed-unbound-keys-to-the-map",
-						"baseGameSlug": "need-for-speed-unbound",
 						"gameType": "MICRO_CONTENT",
 						"title": "Need for Speed™ Unbound - Keys to the Map",
 						"id": "en-us_need-for-speed-unbound-keys-to-the-map_VideoGame_ie_pc",
+						"baseGameSlug": "need-for-speed-unbound",
+						"baseGame": {
+							"__typename": "Game",
+							"slug": "need-for-speed-unbound"
+						},
 						"products": {
 							"__typename": "GameMicrocontentProductOffsetPage",
 							"items": [
@@ -107,6 +196,11 @@
 									"name": "Need for Speed™ Unbound - Keys to the Map",
 									"slug": "need-for-speed-unbound-keys-to-the-map-pc-ww",
 									"gameSlug": "need-for-speed-unbound-keys-to-the-map",
+									"baseItem": {
+										"__typename": "GameMicrocontent",
+										"slug": "need-for-speed-unbound-keys-to-the-map",
+										"id": "en-us_need-for-speed-unbound-keys-to-the-map_VideoGame_hu_pc"
+									},
 									"offer": {
 										"__typename": "UserGameProductOffer",
 										"offerId": "Origin.OFR.50.0005165",
@@ -128,10 +222,14 @@
 					{
 						"__typename": "GameMicrocontent",
 						"slug": "need-for-speed-unbound-palace-edition-upgrade",
-						"baseGameSlug": "need-for-speed-unbound",
 						"gameType": "MICRO_CONTENT",
 						"title": "Need for Speed™ Unbound Palace Upgrade",
 						"id": "en-us_need-for-speed-unbound-palace-edition-upgrade_VideoGame_ie_pc",
+						"baseGameSlug": "need-for-speed-unbound",
+						"baseGame": {
+							"__typename": "Game",
+							"slug": "need-for-speed-unbound"
+						},
 						"products": {
 							"__typename": "GameMicrocontentProductOffsetPage",
 							"items": [
@@ -141,6 +239,11 @@
 									"name": "Need for Speed™ Unbound Palace Upgrade",
 									"slug": "need-for-speed-unbound-deluxe-upgrade-pc-ww-juno",
 									"gameSlug": "need-for-speed-unbound-palace-edition-upgrade",
+									"baseItem": {
+										"__typename": "GameMicrocontent",
+										"slug": "need-for-speed-unbound-palace-edition-upgrade",
+										"id": "en-us_need-for-speed-unbound-palace-edition-upgrade_VideoGame_hu_pc"
+									},
 									"offer": {
 										"__typename": "UserGameProductOffer",
 										"offerId": "Origin.OFR.50.0004476",
@@ -162,10 +265,14 @@
 					{
 						"__typename": "GameMicrocontent",
 						"slug": "need-for-speed-unbound-pre-order-content",
-						"baseGameSlug": "need-for-speed-unbound",
 						"gameType": "MICRO_CONTENT",
 						"title": "Need for Speed™ Unbound Pre-order Content",
 						"id": "en-us_need-for-speed-unbound-pre-order-content_VideoGame_ie_pc",
+						"baseGameSlug": "need-for-speed-unbound",
+						"baseGame": {
+							"__typename": "Game",
+							"slug": "need-for-speed-unbound"
+						},
 						"products": {
 							"__typename": "GameMicrocontentProductOffsetPage",
 							"items": [
@@ -175,6 +282,11 @@
 									"name": "Need for Speed™ Unbound Pre-order Content",
 									"slug": "need-for-speed-unbound-preorder-edition-content-pc-ww-juno",
 									"gameSlug": "need-for-speed-unbound-pre-order-content",
+									"baseItem": {
+										"__typename": "GameMicrocontent",
+										"slug": "need-for-speed-unbound-pre-order-content",
+										"id": "en-us_need-for-speed-unbound-pre-order-content_VideoGame_hu_pc"
+									},
 									"offer": {
 										"__typename": "UserGameProductOffer",
 										"offerId": "Origin.OFR.50.0004477",
@@ -188,10 +300,14 @@
 					{
 						"__typename": "GameMicrocontent",
 						"slug": "need-for-speed-unbound-robojets-swag-pack",
-						"baseGameSlug": "need-for-speed-unbound",
 						"gameType": "MICRO_CONTENT",
 						"title": "Need for Speed™ Unbound - Robojets Swag Pack",
 						"id": "en-us_need-for-speed-unbound-robojets-swag-pack_VideoGame_ie_pc",
+						"baseGameSlug": "need-for-speed-unbound",
+						"baseGame": {
+							"__typename": "Game",
+							"slug": "need-for-speed-unbound"
+						},
 						"products": {
 							"__typename": "GameMicrocontentProductOffsetPage",
 							"items": [
@@ -201,6 +317,11 @@
 									"name": "Need for Speed™ Unbound - Robojets Swag Pack",
 									"slug": "need-for-speed-unbound-legendary-theme-pack-1",
 									"gameSlug": "need-for-speed-unbound-robojets-swag-pack",
+									"baseItem": {
+										"__typename": "GameMicrocontent",
+										"slug": "need-for-speed-unbound-robojets-swag-pack",
+										"id": "en-us_need-for-speed-unbound-robojets-swag-pack_VideoGame_hu_pc"
+									},
 									"offer": {
 										"__typename": "UserGameProductOffer",
 										"offerId": "Origin.OFR.50.0005217",
@@ -222,10 +343,14 @@
 					{
 						"__typename": "GameMicrocontent",
 						"slug": "need-for-speed-unbound-vol-3-customs-pack",
-						"baseGameSlug": "need-for-speed-unbound",
 						"gameType": "MICRO_CONTENT",
 						"title": "Need for Speed™ Unbound - Vol.3 Customs Pack",
 						"id": "en-us_need-for-speed-unbound-vol-3-customs-pack_VideoGame_ie_pc",
+						"baseGameSlug": "need-for-speed-unbound",
+						"baseGame": {
+							"__typename": "Game",
+							"slug": "need-for-speed-unbound"
+						},
 						"products": {
 							"__typename": "GameMicrocontentProductOffsetPage",
 							"items": [
@@ -235,6 +360,11 @@
 									"name": "Need for Speed™ Unbound - Vol.3 Customs Pack",
 									"slug": "need-for-speed-unbound-epic-customs-pack-1",
 									"gameSlug": "need-for-speed-unbound-vol-3-customs-pack",
+									"baseItem": {
+										"__typename": "GameMicrocontent",
+										"slug": "need-for-speed-unbound-vol-3-customs-pack",
+										"id": "en-us_need-for-speed-unbound-vol-3-customs-pack_VideoGame_hu_pc"
+									},
 									"offer": {
 										"__typename": "UserGameProductOffer",
 										"offerId": "Origin.OFR.50.0005216",

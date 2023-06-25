@@ -8,14 +8,16 @@
 					"__typename": "GameProduct",
 					"game": {
 						"__typename": "Game",
-						"slug": "need-for-speed-unbound-vol-3-customs-pack"
+						"slug": "need-for-speed-unbound-vol-3-customs-pack",
+						"id": "en-us_need-for-speed-unbound-vol-3-customs-pack_VideoGame_hu_pc"
 					}
 				},
 				{
 					"__typename": "GameProduct",
 					"game": {
 						"__typename": "Game",
-						"slug": "need-for-speed-unbound-robojets-swag-pack"
+						"slug": "need-for-speed-unbound-robojets-swag-pack",
+						"id": "en-us_need-for-speed-unbound-robojets-swag-pack_VideoGame_hu_pc"
 					}
 				}
 			]
@@ -25,6 +27,18 @@
 			"items": [
 				{
 					"__typename": "GameProduct",
+					"baseItem": {
+						"__typename": "Game",
+						"slug": "need-for-speed-unbound-ford-mustang-gt-legendary-custom-pack",
+						"id": "en-us_need-for-speed-unbound-ford-mustang-gt-legendary-custom-pack_VideoGame_hu_pc",
+						"baseGameSlug": "need-for-speed-unbound"
+					},
+					"game": {
+						"__typename": "Game",
+						"slug": "need-for-speed-unbound-ford-mustang-gt-legendary-custom-pack",
+						"id": "en-us_need-for-speed-unbound-ford-mustang-gt-legendary-custom-pack_VideoGame_hu_pc",
+						"baseGameSlug": "need-for-speed-unbound"
+					},
 					"id": "en-us_need-for-speed-unbound-street-pass-1_VideoGameProduct_hu_pc",
 					"name": "Need for Speed™ Unbound - Ford Mustang GT Legendary Custom Pack",
 					"slug": "need-for-speed-unbound-street-pass-1",

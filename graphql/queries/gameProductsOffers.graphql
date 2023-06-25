@@ -3,10 +3,11 @@ query gameProductsOffers {
 	gameProducts: gameProducts(offerIds: ["Origin.OFR.50.0005216", "Origin.OFR.50.0005217"]) {
 		__typename # GameProductsOffsetPage
 		items {
-			__typename # GameProduct
+			__typename # GameProduct, simplified
 			game {
-				__typename # Game
+				__typename # Game, simplified
 				slug
+				id
 			}
 		}
 	}
@@ -14,6 +15,18 @@ query gameProductsOffers {
 		__typename # GameProductsOffsetPage
 		items {
 			__typename # GameProduct
+			baseItem {
+				__typename # Game, simplified
+				slug
+				id
+				baseGameSlug
+			}
+			game {
+				__typename # Game, simplified
+				slug
+				id
+				baseGameSlug
+			}
 			id
 			name
 			slug
