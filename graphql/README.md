@@ -12,11 +12,19 @@
 | Search | TODO | TODO |
 | ... | ... | ... |
 
+## Main Fields
+
+| Field | Type | Arguments | Query | Example |
+|-------|------|-----------|-------|---------|
+| game | Game | slug:string, masterTitleId:string | [GameOffers](queries/GameOffers.graphql) | [GameOffers](queries/GameOffers.example.json) |
+| games | GameOffsetPage | slugs:string[] |  [GameOffers](queries/GameOffers.graphql) | [GameOffers](queries/GameOffers.example.json) |
+| gameSubscriptions | GameSubscriptionOffsetPage | | [PlanSelection](queries/PlanSelection.graphql) | [PlanSelection](queries/PlanSelection.example.json) |
+
 ## Get Started
 
 - Have a rough idea how GraphQL works:
   - [graphql.org/learn](https://graphql.org/learn/)
-  - Important topics: [Fields](https://graphql.org/learn/queries/#fields), [Arguments](https://graphql.org/learn/queries/#arguments), [Fragments](https://graphql.org/learn/queries/#fragments), [Operation names](https://graphql.org/learn/queries/#operation-name)
+  - Important topics: [Fields](https://graphql.org/learn/queries/#fields), [Arguments](https://graphql.org/learn/queries/#arguments), [Fragments](https://graphql.org/learn/queries/#fragments), [Operation names](https://graphql.org/learn/queries/#operation-name), [Aliases](https://graphql.org/learn/queries/#aliases)
 
 1. Get a tool to make querying easier: [Insomnia](https://insomnia.rest/download), [Postman](https://www.postman.com/)
 2. Go to the [EA Site](https://www.ea.com/), with DevTools (`F12` / `Ctrl+Shift+I`) open on the Network tab

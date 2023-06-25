@@ -1,0 +1,61 @@
+query gameProductsOffers {
+	__typename # Query
+	gameProducts: gameProducts(offerIds: ["Origin.OFR.50.0005216", "Origin.OFR.50.0005217"]) {
+		__typename # GameProductsOffsetPage
+		items {
+			__typename # GameProduct
+			game {
+				__typename # Game
+				slug
+			}
+		}
+	}
+	gameProduct: gameProducts(offerIds: "Origin.OFR.50.0005218") {
+		__typename # GameProductsOffsetPage
+		items {
+			__typename # GameProduct
+			id
+			name
+			slug
+			gameSlug
+			offer {
+				__typename # UserGameProductOffer
+				offerId
+				offerName
+				purchaseOptions {
+					__typename # GameProductPurchaseOption
+					currency
+					discountPercentage
+					displayOriginalTotal
+					displayTotalWithDiscount
+				}
+				lowestPricePurchaseOption {
+					__typename # GameProductPurchaseOption
+					currency
+					discountPercentage
+					displayOriginalTotal
+					displayTotalWithDiscount
+				}
+			}
+			anonymousOffer {
+				__typename # GameProductOffer
+				offerId
+				offerName
+				purchaseOptions {
+					__typename # GameProductPurchaseOption
+					currency
+					discountPercentage
+					displayOriginalTotal
+					displayTotalWithDiscount
+				}
+				lowestPricePurchaseOption {
+					__typename # GameProductPurchaseOption
+					currency
+					discountPercentage
+					displayOriginalTotal
+					displayTotalWithDiscount
+				}
+			}
+		}
+	}
+}

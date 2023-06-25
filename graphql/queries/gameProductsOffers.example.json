@@ -1,0 +1,78 @@
+{
+	"data": {
+		"__typename": "Query",
+		"gameProducts": {
+			"__typename": "GameProductsOffsetPage",
+			"items": [
+				{
+					"__typename": "GameProduct",
+					"game": {
+						"__typename": "Game",
+						"slug": "need-for-speed-unbound-vol-3-customs-pack"
+					}
+				},
+				{
+					"__typename": "GameProduct",
+					"game": {
+						"__typename": "Game",
+						"slug": "need-for-speed-unbound-robojets-swag-pack"
+					}
+				}
+			]
+		},
+		"gameProduct": {
+			"__typename": "GameProductsOffsetPage",
+			"items": [
+				{
+					"__typename": "GameProduct",
+					"id": "en-us_need-for-speed-unbound-street-pass-1_VideoGameProduct_hu_pc",
+					"name": "Need for Speed™ Unbound - Ford Mustang GT Legendary Custom Pack",
+					"slug": "need-for-speed-unbound-street-pass-1",
+					"gameSlug": "need-for-speed-unbound-ford-mustang-gt-legendary-custom-pack",
+					"offer": {
+						"__typename": "UserGameProductOffer",
+						"offerId": "Origin.OFR.50.0005218",
+						"offerName": "Need for Speed™ Unbound - Ford Mustang GT Legendary Custom Pack",
+						"purchaseOptions": [
+							{
+								"__typename": "GameProductPurchaseOption",
+								"currency": "EUR",
+								"discountPercentage": 0,
+								"displayOriginalTotal": "€9.99",
+								"displayTotalWithDiscount": "€9.99"
+							}
+						],
+						"lowestPricePurchaseOption": {
+							"__typename": "GameProductPurchaseOption",
+							"currency": "EUR",
+							"discountPercentage": 0,
+							"displayOriginalTotal": "€9.99",
+							"displayTotalWithDiscount": "€9.99"
+						}
+					},
+					"anonymousOffer": {
+						"__typename": "GameProductOffer",
+						"offerId": "Origin.OFR.50.0005218",
+						"offerName": "Need for Speed™ Unbound - Ford Mustang GT Legendary Custom Pack",
+						"purchaseOptions": [
+							{
+								"__typename": "GameProductPurchaseOption",
+								"currency": "EUR",
+								"discountPercentage": 0,
+								"displayOriginalTotal": "€9.99",
+								"displayTotalWithDiscount": "€9.99"
+							}
+						],
+						"lowestPricePurchaseOption": {
+							"__typename": "GameProductPurchaseOption",
+							"currency": "EUR",
+							"discountPercentage": 0,
+							"displayOriginalTotal": "€9.99",
+							"displayTotalWithDiscount": "€9.99"
+						}
+					}
+				}
+			]
+		}
+	}
+}
